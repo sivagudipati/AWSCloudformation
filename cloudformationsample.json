@@ -1,4 +1,4 @@
-"AWSTemplateSample":"2017-12-14",
+"AWSTemplateSample":"Jenkinsstack",
 "Description": "Cloudformation template sample",
 "Parameters":{
 	"AmiID":{"Type":"String"},
