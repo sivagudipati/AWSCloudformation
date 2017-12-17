@@ -1,5 +1,5 @@
 {
-"AWSTemplateSample":"2017-12-17",
+"AWSTemplateFormatVersion" : "2010-09-09",
 "Description": "Cloudformation template sample",
 "Parameters":{
 	"AmiID":{"Type":"String"},
