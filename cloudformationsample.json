@@ -1,3 +1,4 @@
+{
 "AWSTemplateSample":"Jenkinsstack",
 "Description": "Cloudformation template sample",
 "Parameters":{
@@ -7,4 +8,6 @@
 	"StackName":{"Type":"String"},
 	"SubnetID":{"Type":"String"},
 	"UserID":{"Type":"String"}
+	}
 }
+	
