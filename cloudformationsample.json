@@ -7,25 +7,4 @@
 	"StackName":{"Type":"String"},
 	"SubnetID":{"Type":"String"},
 	"UserID":{"Type":"String"}
-},
-
-"Mappings":{
-	"SGmappings":{
-		"us-east-1": {"infra":"sg-089554", "Mcs":"sg-06803"},
-		"us-west-2": {"infra":"sg-089554", "Mcs":"sg-06803"},
-	}
-},
-
-	"Resources": {
-		"EC2Instance":{
-			"Type": "AWS::EC2::Instance",
-			"Properties":{
-		},
-
-	"Outputs":{
-		InstanceId":{
-			"Description": "InstanceId of the newly created EC2 instance",
-		"Value":{
-			"Ref": "EC2Instance" 
-		}
 }
